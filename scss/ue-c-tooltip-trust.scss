@@ -8,6 +8,12 @@ $width-box: 240px;
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
+	button{
+		background: transparent;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
 	&__container{
 		z-index: 1;
 		width: 13px;
@@ -20,6 +26,7 @@ $width-box: 240px;
 		position: absolute;
 		top: 0;
 		right: 0;
+		
 	}
 	&__close{
 		position: absolute;
@@ -80,6 +87,15 @@ $width-box: 240px;
 		display: block;
 		height: auto;
 		width: $width-box;
+	}
+
+	.is-hidden{
+		position:absolute;
+		left:-10000px;
+		top:auto;
+		width:1px;
+		height:1px;
+		overflow:hidden;
 	}
 
 

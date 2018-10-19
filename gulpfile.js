@@ -17,7 +17,8 @@ var sassOptions = {
 gulp.task('babel-js', function () {
     return gulp.src('lib/*.js')
         .pipe(babel({
-            presets: ['@babel/env']
+            presets: ['@babel/env'],
+            comments: false
         }))
         .pipe(gulp.dest('dist'))
         .pipe(browserSync.stream());
