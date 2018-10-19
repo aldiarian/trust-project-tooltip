@@ -1,0 +1,171 @@
+[
+  {
+    "aria-expanded" : "true",
+    "openclose" : "openTab",
+    "id": "seccion-uno",
+    "titular": "Filosofía",
+    "class-element" : "is-selected",
+    "class-headline" : "selected",
+    "texto" : [
+      "La moralidad y la democracia son las bases del periodismo. A partir de 1644, fecha de la publicación de 'Areopagitica' de John Milton, subtitulado 'Una defensa de la imprenta sin límites', la libertad de prensa se ha convertido en lema constante, aunque a menudo frustrado, del desarrollo democrático en Inglaterra y luego en el resto del mundo. Su plasmación en la Primera Enmienda de la Constitución estadounidense («el Congreso no hará ninguna ley ... que limite la libertad de expresión o de prensa») sigue constituyendo un hito legal no superado.",
+      "Pocos años después, imbuida de los mismos principios liberales, la Constitución española de 1812 plasmaba así ese derecho: &quot;Todos los españoles tienen libertad de escribir, imprimir y publicar sus ideas políticas sin necesidad de licencia, revisión o aprobación alguna anterior a la publicación, bajo las restricciones y responsabilidad que establezcan las leyes&quot;.",
+      "Si bien todo lo que se publica, salvo lo que incurra directamente en delitos como la calumnia y la injuria, debe ser defendido según los principios de la libertad de prensa, no todo lo que se publica es periodismo. El ejercicio de éste se distingue, no sólo por la libertad, sino por una moralidad civil, un sentido de la responsabilidad que no siempre ha reinado en los medios informativos."
+    ]
+  },
+  {
+    "aria-expanded" : "false",
+    "openclose" : "closeTab",
+    "id": "seccion-dos",
+    "titular": "Valores",
+    "texto": [
+      "Durante años se instó a los periodistas a la autorregulación para evitar lo que muchos percibían como una persecución moralmente reprobable de las informaciones «caiga quien caiga», desdeñando la intimidad de las personas o incluso algo tan sencillo como la verdad; buscando el sensacionalismo y los beneficios financieros.",      
+      "Muchos políticos y ciudadanos han considerado que periodistas y editores respondían con apatía y desidia a esas exigencias de autorregulación y han reaccionado con propuestas de recortes legales de su libertad, cuando no con la aprobación de esos mismos recortes.",
+      "El servicio a la sociedad mediante la búsqueda constante de la verdad, la consideración constante del delicado equilibrio entre perjuicios para algunos y beneficios para el conjunto de la opinión que entraña la publicación de cualquier noticia conflictiva, son efectivamente deberes del periodista. En EL MUNDO son también tarea y preocupación comunes de sus profesionales, plasmadas en su Estatuto de la Redacción."
+    ]
+  },
+  {
+    "aria-expanded" : "false",
+    "openclose" : "closeTab",
+    "id": "seccion-tres",
+    "titular": "Estructura empresarial",
+    "texto":[
+      "Fundado el 23 de octubre de 1989 y editado por Unidad Editorial, que tiene como accionista mayoritario a RCS MediaGroup. Tiene su sede en Madrid, aunque cuenta con distintas ediciones regionales."
+    ],
+    "lista": [
+      {
+        "cargo" : "Director",
+        "nombres" : "Francisco Rosell"
+      },
+      {
+        "cargo": "Directores Adjuntos",
+        "nombres": "Rafael Moyano y Joaquín Manso"
+      },
+      {
+        "cargo": "Subdirectores",
+        "nombres": "Vicente Ruiz (Internet), Francisco Pascual (Nacional), Juan Fornieles (Papel-LOC), Jorge Bustos (Opinión), Esteban Urreiztieta (Investigación) y Carlos Segovia (Economía)"
+      },
+      {
+        "cargo" : "Presidente",
+        "nombres" : "Antonio Fernández Galiano"
+      }
+    ]
+  },
+  {
+    "aria-expanded" : "false",
+    "openclose" : "closeTab",
+    "id": "seccion-cuatro",
+    "titular": "Fuentes anónimas",
+    "texto": [
+      "La atribución de la noticia a fuentes definidas le confiere un especial valor: toda información cuya fuente está identificada gana credibilidad ante los lectores. Por ello, es preciso esforzarse al máximo por poder identificarla, evitando al lector esa desasosegante impresión de que el periodista se pasa de listo, se inventa lo que narra o es poseedor de la ciencia infusa.",
+      "La tarea de la atribución no es sencilla nunca porque choca con el derecho y el deber de confidencialidad para proteger a las fuentes que deseen permanecer en el anonimato, un derecho garantizado por la Constitución española (art. 20). Ese secreto profesional lo ejerce el periodista pero la que queda amparada es la fuente y, en fin de cuentas, la sociedad en su conjunto. Este problema se agudiza en el contexto español porque son legión esas fuentes que se sienten lo suficientemente desprotegidas como para demandar ese anonimato.",
+      "¿Cuáles son las soluciones? No existe la panacea universal, pero dos recursos que se deben procurar en cada caso son los siguientes:",
+      "1. Búsqueda de fuentes corroborativas. Una vez obtenido un dato fundamental de una fuente que haya solicitado la confidencialidad, se pueden buscar otras fuentes diferentes, que lo confirmen y que sí puedan ser identificadas. Probablemente este recurso sea más factible a través de fuentes documentales que humanas, pero el periodista tampoco debe descartar el hallazgo de alguna de estas últimas.",
+      "2. Exigencia de una atribución más precisa. A menudo es posible, incluso tratándose de una fuente que exige la confidencialidad, pactar con ella que acepte ser identificada, si no totalmente, sí con una cierta precisión, que contribuirá a reforzar la credibilidad de la información ante el lector."
+    ]
+  },
+  {
+    "aria-expanded" : "false",
+    "openclose" : "closeTab",
+    "id": "seccion-cinco",
+    "titular": "Verificación de hechos y fuentes",
+    "texto": [
+      "Cada vez que un periodista cuestiona el material que le entregan, lo verifica, lo completa, lo corrige con nuevos testimonios —siempre que sea posible, de fuentes independientes— ¬o datos documentales, también está dando ese salto. Más aún cuando prácticamente toda la información se nutre de material descubierto por la iniciativa directa del periodista; es decir, cuando se realiza reporterismo de investigación.",
+      " Aceptar ciegamente los datos que suministra una fuente interesada sin contrastarlos y completarlos (o desmentirlos, si viene al caso) es una falta profesional tan frecuente como injustificable."
+    ]
+  },
+  {
+    "aria-expanded" : "false",
+    "openclose"
+ : "closeTab",    "id": "seccion-seis",
+    "titular": "Política de correcciones",
+    "texto": [
+      "El derecho a la rectificación es un derecho regulado por ley en España. En EL MUNDO puede ejercitar este derecho cualquier lector por una información que considere inexacta y que le causa un perjuicio. Se puede pedir la rectificación de informaciones, no de opiniones o juicios de valor. La petición debe hacerse llegar al medio dentro de los siete días naturales tras la publicación. El periódico debe insertar el escrito en el plazo de tres días."
+    ]
+  },
+  {
+    "aria-expanded" : "false",
+    "openclose" : "closeTab",
+    "id": "seccion-siete",
+    "titular": "Diversidad",
+    "texto": [
+      "EL MUNDO está comprometido con la  igualdad de oportunidades. En su política de recursos humanos se valora únicamente la capacitación profesional de sus trabajadores, más allá de sus género, raza, creencia religiosa o identidad sexual, sin ninguna discriminación. Y ese compromiso refleja una redacción plural y abierta, reflejo de la sociedad que nos rodea."
+    ]
+  },
+  {
+    "aria-expanded" : "false",
+    "openclose" : "closeTab",
+    "id": "seccion-ocho",
+    "titular": "Comentarios",
+    "texto": [
+      "El Mundo favorece activamente la participación de sus lectores y su interacción con los contenidos. Prácticamente todos los artículos del periódico ofrecen un apartado para facilitar datos, comentar las noticias o la labor de nuestros periodistas. Asimismo, se reciben comentarios y feedback de los usuarios a través de los canales sociales, incluyendo Facebook, Twitter e Instagram.",
+      "El Mundo también ofrece la posibilidad de que los lectores reporten comentarios ofensivos al equipo de moderación. Este vela porque se mantengan los estándares de calidad del periódico, interviniendo en caso de ser necesario para eliminar insultos, descalificaciones o valoraciones inapropiadas.",
+      "La participación también es bienvenida a través de los chats en directo que se celebran semanalmente.",
+      "Para informaciones o sugerencias, El Mundo tiene habilitada una cuenta de correo electrónico:  <a href='mailto:attcliente@unidadeditorial.es'>attcliente@unidadeditorial.es</a> y un formulario: <a href='http://www.elmundo.es/elmundo/formularios/generico.html'>enlace</a> ",
+      "Para consultas de tipo técnico, existe un formulario específico: <a href='http://www.elmundo.es/imasd/servicios/formulario/webmaster.html'> enlace</a>"
+    ]
+  },
+  {
+      "aria-expanded" : "false",
+      "openclose" : "closeTab",
+      "id": "seccion-contacto",
+      "titular": "Contacto",
+      "texto": [
+        "Avenida San Luis, 25, 28033, Madrid<br>Teléfono: <a href='tel:+914435844'>914435844</a>"
+      ],
+      "contactos" : [
+        {
+          "seccion": "España",
+          "email": "elmundo.espana@elmundo.es"
+        },
+        {
+          "seccion": "Internacional",
+          "email": "internacional@elmundo.es"
+        },
+        {
+          "seccion": "Economía",
+          "email": "economiaweb@elmundo.es"
+        },
+        {
+          "seccion": "Cultura",
+          "email": "culturaweb@elmundo.es"
+        },
+        {
+          "seccion": "Deportes",
+          "email": "deportes@elmundo.es"
+        },
+        {
+          "seccion": "Opinión",
+          "email": "opinion01@elmundo.es"
+        },
+        {
+          "seccion": "Televisión",
+          "email": "television@elmundo.es"
+        },
+        {
+          "seccion": "Ciencia",
+          "email": "ciencia@elmundo.es"
+        },
+        {
+          "seccion": "Motor",
+          "email": "motor@elmundo.es"
+        },    
+        {
+          "seccion": "LOC",
+          "email": "laotracronica@elmundo.es"
+        },    
+        {
+          "seccion": "Viajes",
+          "email": "viajes@elmundo.es"
+        },    
+        {
+          "seccion": "Yo Dona",
+          "email": "redaccion@yodona.com"
+        },    
+        {
+          "seccion": "Papel",
+          "email": "papel@elmundo.es"
+        }
+      ]
+    }
+  ]
+

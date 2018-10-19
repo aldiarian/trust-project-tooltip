@@ -1,0 +1,90 @@
+$color-main: white;
+$border-color: rgba(151, 151, 151, 0.452);
+$border-size: 1px;
+$width-box: 240px;
+
+.ue-c-tooltip-trust{
+	margin-left: 5px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	&__container{
+		z-index: 1;
+		width: 13px;
+		height: 13px;
+		display: inline-block;
+		position: relative;
+	}
+	&__info-button{
+		z-index: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	&__close{
+		position: absolute;
+		top: 1.3em;
+		right: 1.3em;
+		z-index: 1;
+	}
+	&__main{
+		display: none;
+		position: fixed;
+		
+		p{
+			font-family: 'Clear Sans', Arial, sans-serif, helvetica; ;
+			font-size: 1em;
+			line-height: 1.4em;
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			padding-top: 0.5em;
+			display: block;
+		}
+	}
+	&__box{
+		width: $width-box;
+		background-color: $color-main;
+		border: $border-size solid $border-color;
+		border-radius: 12px;
+		padding: 1em 2.5em 1em 1em;
+		position: fixed;
+		box-shadow: 0px 0px 7px 0px rgba(167, 167, 167, 0.6);
+		&:after, &:before {
+			bottom: 100%;
+			left: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+		}
+		
+		&:after {
+			border-color: rgba(136, 183, 213, 0);
+			border-bottom-color: white;
+			border-width: 13px;
+			margin-left: -59px;
+		}
+		&:before {
+			border-color: rgba(194, 225, 245, 0);
+			border-bottom-color: $border-color;
+			border-width: 14px;
+			margin-left: -60px;
+		}
+
+	}
+	.is-open{
+		display: block;
+		height: auto;
+		width: $width-box;
+	}
+
+
+	
+}
+
+
+
