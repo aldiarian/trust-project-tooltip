@@ -2,21 +2,41 @@ $color-main: white;
 $border-color: rgba(151, 151, 151, 0.452);
 $border-size: 1px;
 $width-box: 240px;
+$media: 768px;
+$width:48px;
 
 .ue-c-tooltip-trust{
-	margin-left: 5px;
+	top:2px;
+	left: 2px;
+	@media all and (min-width: $media) {
+		top: 0;
+		left: 4px;
+	};
 	display: inline-block;
 	position: relative;
+	width: $width;
+	height: 13px;
 	cursor: pointer;
 	button{
 		background: transparent;
 		margin: 0;
 		padding: 0;
 		border: 0;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+     -webkit-tap-highlight-color: transparent; /* For some Androids */
+		&:active,
+		&:focus,
+		&.active {
+			background-image: none;
+			outline: 0;
+			-webkit-box-shadow: none;
+				box-shadow: none;
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
 	}
 	&__container{
 		z-index: 1;
-		width: 13px;
+		width: $width;
 		height: 13px;
 		display: inline-block;
 		position: relative;
@@ -26,6 +46,8 @@ $width-box: 240px;
 		position: absolute;
 		top: 0;
 		right: 0;
+		width: $width;
+		height: 13px;
 		
 	}
 	&__close{
