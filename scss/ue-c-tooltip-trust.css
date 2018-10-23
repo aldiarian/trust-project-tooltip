@@ -1,35 +1,40 @@
 .ue-c-tooltip-trust {
-  margin-left: 5px;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
   display: inline-block;
   position: relative;
+  width: 48px;
+  height: 13px;
+}
+
+@media all and (min-width: 768px) {
+  .ue-c-tooltip-trust {
+    top: 0;
+    left: 4px;
+  }
+}
+
+.ue-c-tooltip-trust button {
+  background: transparent;
+  margin: 0;
+  padding: 2px;
+  border: 0;
   cursor: pointer;
 }
 
-.ue-c-tooltip-trust__container {
-  z-index: 1;
-  width: 13px;
+.ue-c-tooltip-trust__button {
+  width: 48px;
   height: 13px;
-  display: inline-block;
-  position: relative;
-}
-
-.ue-c-tooltip-trust__info-button {
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.ue-c-tooltip-trust__close {
-  position: absolute;
-  top: 1.3em;
-  right: 1.3em;
-  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .ue-c-tooltip-trust__main {
   display: none;
   position: fixed;
+  z-index: 2;
 }
 
 .ue-c-tooltip-trust__main p {
@@ -43,6 +48,13 @@
 .ue-c-tooltip-trust__main a {
   padding-top: 0.5em;
   display: block;
+}
+
+.ue-c-tooltip-trust__close {
+  position: absolute;
+  top: 1.3em;
+  right: 1.3em;
+  z-index: 1;
 }
 
 .ue-c-tooltip-trust__box {
@@ -85,5 +97,14 @@
   display: block;
   height: auto;
   width: 240px;
+}
+
+.ue-c-tooltip-trust .is-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=ue-c-tooltip-trust.css.map */
