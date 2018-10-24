@@ -63,9 +63,9 @@ $color-main: #fff;
 		margin-left: 1;
 		transform: translateX(-50%);
 	}
-	&.small_viewport{
+	&--left-arrow{
 		&:after,&:before{
-			content:none;
+			transform: rotate(90deg)  translateX(-50%);
 		}
 	}
 	p{
@@ -99,7 +99,6 @@ $color-main: #fff;
 		height:1px;
 		overflow:hidden;
 	}
-
 
 	
 }
