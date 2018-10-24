@@ -5,35 +5,32 @@ $width-box: 240px;
 $media: 768px;
 $width:48px;
 
-.ue-c-tooltip{
+.info-trust__button{
+	width: $width;
+	height: 13px;
+	display: flex;
+	background: transparent;
+	margin: 0;
+	padding: 2px;
+	border: 0;
+	cursor: pointer;
+}
+.ue-c-tooltip-trust{
 	cursor: pointer;
 	top:2px;
 	left: 2px;
-		@media all and (min-width: $media) {
-			top: 0;
-			left: 4px;
-		};
+	@media all and (min-width: $media) {
+		top: 0;
+		left: 4px;
+	};
 	display: inline-block;
 	position: relative;
 	width: $width;
 	height: 13px;
-	button{
-		background: transparent;
-		margin: 0;
-		padding: 2px;
-		border: 0;
-		cursor: pointer;
-	}
-	&__button{
-		width: $width;
-		height: 13px;
-		display: flex;
-	}
 	&__main{
 		display: none;
 		position: fixed;
 		z-index: 2;
-		
 		p{
 			font-family: 'Clear Sans', Arial, sans-serif, helvetica; ;
 			font-size: 1em;
@@ -45,13 +42,6 @@ $width:48px;
 			padding-top: 0.5em;
 			display: block;
 		}
-	}
-	
-	&__close{
-		position: absolute;
-		top: 1.3em;
-		right: 1.3em;
-		z-index: 1;
 	}
 	&__box{
 		width: $width-box;
@@ -92,13 +82,19 @@ $width:48px;
 		
 
 	}
-	.is-open{
+	&--close{
+		position: absolute;
+		top: 1.3em;
+		right: 1.3em;
+		z-index: 1;
+		border: 0;
+	}
+	&--open{
 		display: block;
 		height: auto;
 		width: $width-box;
 	}
-
-	.is-hidden{
+	&--hidden{
 		position:absolute;
 		left:-10000px;
 		top:auto;
