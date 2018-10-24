@@ -5,7 +5,7 @@ $width-box: 240px;
 $media: 768px;
 $width:48px;
 
-.ue-c-tooltip-trust{
+.ue-c-tooltip{
 	cursor: pointer;
 	top:2px;
 	left: 2px;
@@ -74,7 +74,7 @@ $width:48px;
 		
 		&:after {
 			border-color: rgba(136, 183, 213, 0);
-			border-bottom-color: white;
+			border-bottom-color: var(--ue-c-tooltip-color-main, #fff);
 			border-width: 13px;
 			margin-left: -59px;
 		}
