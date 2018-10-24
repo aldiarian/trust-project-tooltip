@@ -93,6 +93,10 @@
   margin-left: -60px;
 }
 
+.ue-c-tooltip-trust__box.small_viewport:after, .ue-c-tooltip-trust__box.small_viewport:before {
+  content: none;
+}
+
 .ue-c-tooltip-trust .is-open {
   display: block;
   height: auto;
