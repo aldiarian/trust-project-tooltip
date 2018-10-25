@@ -18,7 +18,15 @@ $color-main: #fff;
 	margin: 0 1em;
 }
 
-
+.info-trust__buttonDos{
+	color: white;
+	background-color: red;
+	width: 120px;
+	height: auto;
+	border-radius: 5px;
+	position: relative;
+	display: inline-block;
+}
 
 $color-border: rgba(176, 176, 176, 0.4);
 $color-background: white;
