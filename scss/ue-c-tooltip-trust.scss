@@ -14,18 +14,17 @@ $color-main: #fff;
 	width: 13px;
 	height: 13px;
 	position: relative;
-	top:2px;
-	margin: 0 1em;
+	padding: 0;
 }
 
 .info-trust__buttonDos{
 	color: white;
 	background-color: red;
-	width: 120px;
+	width: 380px;
 	height: auto;
 	border-radius: 5px;
 	position: relative;
-	display: inline-block;
+	display: block;
 }
 
 $color-border: rgba(176, 176, 176, 0.4);
