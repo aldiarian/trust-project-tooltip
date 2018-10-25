@@ -1,4 +1,4 @@
-<button  id="info-trust-button-uno" class="info-trust__button" data-tooltip="true" data-tooltip-positon="bottom"  title="Información del contenido" aria-expanded="false" aria-haspopup="true" aria-controls="trust_main_container">
+<button  id="info-trust-button-uno" class="info-trust__button" title="Información del contenido" aria-expanded="false" aria-haspopup="true" aria-controls="trust_main_container">
     <svg  aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
         <g fill="none" fill-rule="evenodd" transform="translate(0 -1)">
             <rect width="13" height="13" y="1" fill="#EAEAEA" fill-rule="nonzero" rx="2" />
@@ -8,12 +8,16 @@
     </svg>
 </button>
 
-    <div  id="ue-c_tooltip-trust" data-trigger="info-trust-button-uno" data-position="right" class="ue-c-tooltip-trust" role="dialog"  tabindex="-1" id="trust_main_container">
+
+
+    <div  id="ue-c_tooltip-trust" data-position="bottom" data-trigger="info-trust-button-uno" class="ue-c-tooltip-trust " role="dialog"  tabindex="-1" id="trust_main_container">
         <div role="document">
-            {{!-- <button title="cerrar ventana" class="ue-c-tooltip-trust--close">
+            <button title="cerrar ventana" class="ue-c-tooltip-trust--close">
                 <span class="ue-c-tooltip-trust--hidden">cerrar</span>
-            </button> --}}
-            <p>UNO - Basado en hechos <a href="https://www.elmundo.es/em/codigo-etico.html" title="Se abre en nueva ventana" target="_blank">Pulsa aquí para saber más</a>
+            </button>
+            <p>BOTTOM - Basado en hechos, ya sean presenciados y verificados directamente por el periodista, o informados y verificados
+                a partir de fuentes bien informadas
+                <a href="https://www.elmundo.es/em/codigo-etico.html" title="Se abre en nueva ventana" target="_blank">Pulsa aquí para saber más</a>
             </p>
         </div>
     </div>
