@@ -11,16 +11,17 @@ $color-main: #fff;
 	margin: 0;
 	border: 0;
 	cursor: pointer;
-	width: 13px;
+	width: 113px;
 	height: 13px;
 	position: relative;
 	padding: 0;
+	background: red;
 }
 
 .info-trust__buttonDos{
 	color: white;
 	background-color: red;
-	width: 380px;
+	width: 100px;
 	height: auto;
 	border-radius: 5px;
 	position: relative;
@@ -41,7 +42,7 @@ button > * {
 		display: none;
 		z-index: 10;
 		box-sizing: border-box;
-		padding: 1em 2em 1em 1em;
+		padding: 1em 2.5em 1em 1em;
 		max-width: 200px;
 		position: relative;
 		background: $color-background;
