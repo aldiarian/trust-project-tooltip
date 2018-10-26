@@ -183,6 +183,13 @@ button > * {
 		height: 1px;
 		overflow: hidden;
 	}
+	&--no-arrow{
+		&:after,
+		&:before {
+			border: solid transparent;
+			content: none;;
+		}
+	}
 	button {
 		background-color: transparent;
 		padding: 0;
