@@ -617,17 +617,18 @@
                     
                 </span>
                 
-                <!-- {{>tooltip-trust2 }}
-                {{>tooltip-trust3 }}
-                {{>tooltip-trust4 }} -->
-                <!-- {{>tooltip-trust5 }} -->
                 <div class="titles">
                     <h1 itemprop="headline" class="js-headline">Andrés Trapiello: "Pasear por el Rastro es una cura de humildad"</h1>
                     <div class="kicker">
                         <h2>
                             <a href="/cultura.html">CULTURA BALEARES</a>
                         </h2>
-                        {{>tooltip-trust }}
+                        <ul class="lista-tools">
+                            <li>{{>tooltip-trust-bottom }}</li>
+                            <li>{{>tooltip-trust-top }}</li>
+                            <li>{{>tooltip-trust-left }}</li>
+                            <li>{{>tooltip-trust-right }}</li>
+                        </ul>
                     </div>
                 </div>
                 <style>
@@ -636,7 +637,13 @@
                         position: static;
                         top: 0;
                     }
-                    </style>
+                    .news-item .titles .kicker h2{
+                        margin-right: 1em;
+                    }
+                    .lista-tools{
+                        display: flex;
+                    }
+                </style>
                 <div class="row content sharing-tools">
                        
                     <ul>
@@ -660,7 +667,6 @@
                         </li>
                         <li class="social-networks-container">
                             <ul class="js_socialMedia">
-                                    {{>tooltip-trust3 }}
                                 <li>
                                     <i class="icon-facebook_30_a js-icon-facebook"></i>
                                     <span class="hidden-content">Compartir en Facebook</span>
