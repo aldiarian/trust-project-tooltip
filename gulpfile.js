@@ -37,7 +37,7 @@ gulp.task('watch', ['templates', 'sass', 'images', 'babel-js',  'browser-sync'],
   gulp.watch('scss/**/*.scss', ['sass']);
   gulp.watch('lib/*.js', ['babel-js']);
   gulp.watch('src/**/*.json', ['templates']);
-  gulp.watch('src/**/*.js', ['templates']);
+  gulp.watch('lib/**/*.js', ['templates']);
   gulp.watch('src/**/*.hbs', ['templates']);
   gulp.watch("src/**/*.html", ['templates']);
 });

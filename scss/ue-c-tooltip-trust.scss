@@ -14,12 +14,12 @@
 $font-family: "Roboto";
 $width-border: 1;
 $color-border: rgba(143, 143, 143, 0.267);
-$color-transparent: rgba(255, 255, 255, 0);
 $color-background: rgb(255, 255, 255);
 $font-color: rgb(0, 0, 0);
 $width-after: 12;
 $width-before: 15;
 $box-shadow: 0px 0px 1px 1px $color-border;
+$mq01: 768px;
 
 
 // Para evitar los problemas que tiene js en los eventos click/tap con los SVG
@@ -31,6 +31,7 @@ button > * {
 
 //estilos botón
 
+
 .info-trust__button {
 	justify-content: center;
 	background: transparent;
@@ -40,9 +41,17 @@ button > * {
 	width: 13px;
 	height: 13px;
 	position: relative;
+	display: inline-block;
 	padding: 0;
 }
 
+.info-trust-button-otro{
+	background-color: orange;
+	border-radius: 5px;
+	padding: .5em 1em;
+	width: auto;
+	height: auto;
+}
 //estilos tooltip
 
 //https://www.cssportal.com/css-tooltip-generator/#
@@ -50,15 +59,19 @@ button > * {
 	display: none;
 	z-index: 10;
 	box-sizing: border-box;
-	padding: 1em 2.5em 1em 1em;
-	max-width: 246px;
 	position: relative;
 	background: $color-background;
 	border: #{$width-border}px solid $color-border;
 	box-shadow: $box-shadow;
 	border-radius: 6px;
 	font-family: Roboto;
-	font-size: 15px;
+	padding: 1em 2.5em 1em 1em;
+	max-width: 190px;
+
+
+	@media all and (min-width: $mq01) {
+		max-width: 246px;
+	};
 	&:after,
 	&:before {
 		border: solid transparent;
@@ -78,13 +91,13 @@ button > * {
 		&:after {
 			border-width: #{$width-after}px;
 			margin-top: -#{$width-after}px;
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-right-color: $color-background;
 		}
 		&:before {
 			border-width: #{$width-before + $width-border -2}px;
 			margin-top: -#{$width-before + $width-border -2}px;
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-right-color: $color-border;
 		}
 		margin-left: #{$width-before}px;
@@ -96,13 +109,13 @@ button > * {
 			left: 50%;
 		}
 		&:after {
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-top-color: $color-background;
 			border-width: #{$width-after}px;
 			margin-left: -#{$width-after}px;
 		}
 		&:before {
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-top-color: $color-border;
 			border-width: #{$width-before + $width-border -2}px;
 			margin-left: -#{$width-before + $width-border -2}px;
@@ -116,13 +129,13 @@ button > * {
 			left: 50%;
 		}
 		&:after {
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-bottom-color: $color-background;
 			border-width: #{$width-after}px;
 			margin-left: -#{$width-after}px;
 		}
 		&:before {
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-bottom-color: $color-border;
 			border-width: #{$width-before + $width-border -2}px;
 			margin-left: -#{$width-before + $width-border -2}px;
@@ -136,13 +149,13 @@ button > * {
 			top: 50%;
 		}
 		&:after {
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-left-color: #ffffff;
 			border-width: #{$width-after}px;
 			margin-top: -#{$width-after}px;
 		}
 		&:before {
-			border-color: $color-transparent;
+			border-color:  rgba(255, 255, 255, 0);
 			border-left-color: $color-border;
 			border-width: #{$width-before + $width-border -2}px;
 			margin-top: -#{$width-before + $width-border -2}px;
@@ -178,9 +191,13 @@ button > * {
 	p {
 		color: $font-color;
 		font-family: $font-family;
-		font-size: 15px;
+		font-size: 12px;
 		line-height: 1.3em;
 		padding: 0;
+		margin: 0;
+		@media all and (min-width: $mq01) {
+			font-size: 16px;
+		};
 	}
 	a {
 		margin-top: 0.4em;
