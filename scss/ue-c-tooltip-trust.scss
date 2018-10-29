@@ -16,11 +16,10 @@ $box-shadow: none;
 	margin: 0;
 	border: 0;
 	cursor: pointer;
-	width: 113px;
+	width: 13px;
 	height: 13px;
 	position: relative;
 	padding: 0;
-	background: red;
 }
 
 .info-trust__buttonDos{
@@ -151,6 +150,11 @@ button > * {
 		width:1px;
 		height:1px;
 		overflow:hidden;
+	}
+	&--nopointer{
+		&:after, &:before {
+			content: none;
+		}
 	}
 	button > * {
 		pointer-events: none;
