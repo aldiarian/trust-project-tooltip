@@ -38,8 +38,8 @@ button > * {
 	margin: 0;
 	border: 0;
 	cursor: pointer;
-	width: 13px;
-	height: 13px;
+	width: 23px;
+	height: 16px;
 	position: relative;
 	display: inline-block;
 	padding: 0;
@@ -72,52 +72,11 @@ button > * {
 		position: absolute;
 		pointer-events: none;
 	}
-	&[data-position="right"] {
-	
-		&:after,
-		&:before {
-			right: 100%;
-			top: 50%;
-		}
-		&:after {
-			border-width: #{$ue-tooltip-width-after}px;
-			margin-top: -#{$ue-tooltip-width-after}px;
-			border-color:  rgba(255, 255, 255, 0);
-			border-right-color: $ue-tooltip-color-background;
-		}
-		&:before {
-			border-width: #{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
-			margin-top: -#{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
-			border-color:  rgba(255, 255, 255, 0);
-			border-right-color: $ue-tooltip-color-border;
-		}
-		margin-left: #{$ue-tooltip-width-before}px;
-	}
-	&[data-position="top"] {
-		&:after,
-		&:before {
-			top: 100%;
-			left: 50%;
-		}
-		&:after {
-			border-color:  rgba(255, 255, 255, 0);
-			border-top-color: $ue-tooltip-color-background;
-			border-width: #{$ue-tooltip-width-after}px;
-			margin-left: -#{$ue-tooltip-width-after}px;
-		}
-		&:before {
-			border-color:  rgba(255, 255, 255, 0);
-			border-top-color: $ue-tooltip-color-border;
-			border-width: #{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
-			margin-left: -#{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
-		}
-		margin-top: -#{$ue-tooltip-width-before}px;
-	}
 	&[data-position="bottom"] {
 		&:after,
 		&:before {
 			bottom: 100%;
-			left: 50%;
+			left: 65px;
 		}
 		&:after {
 			border-color:  rgba(255, 255, 255, 0);
@@ -132,27 +91,6 @@ button > * {
 			margin-left: -#{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
 		}
 		margin-top: #{$ue-tooltip-width-before}px;
-	}
-	&[data-position="left"] {
-		&:after,
-		&:before {
-			left: 100%;
-			top: 50%;
-		}
-		&:after {
-			border-color:  rgba(255, 255, 255, 0);
-			border-left-color: #ffffff;
-			border-width: #{$ue-tooltip-width-after}px;
-			margin-top: -#{$ue-tooltip-width-after}px;
-		}
-		&:before {
-			border-color:  rgba(255, 255, 255, 0);
-			border-left-color: $ue-tooltip-color-border;
-			border-width: #{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
-			margin-top: -#{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
-		}
-		margin-left: -#{$ue-tooltip-width-before}px;
-			
 	}
 	&--open {
 		display: inline-block;
