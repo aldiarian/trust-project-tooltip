@@ -13,12 +13,12 @@
 // variables
 $ue-tooltip-font-family: "Roboto";
 $ue-tooltip-font-size: 15px;
-$ue-tooltip-width-border: 1;
+$ue-tooltip-width-border: 1px;
 $ue-tooltip-color-border: rgba(143, 143, 143, 0.267);
 $ue-tooltip-color-background: rgb(255, 255, 255);
 $ue-tooltip-font-color: rgb(0, 0, 0);
-$ue-tooltip-width-after: 12;
-$ue-tooltip-width-before: 15;
+$ue-tooltip-width-after: 12px;
+$ue-tooltip-width-before: 15px;
 $ue-tooltip-box-shadow: 0px 0px 1px 1px $ue-tooltip-color-border;
 $ue-tooltip-mq01: 768px;
 
@@ -54,7 +54,7 @@ button > * {
 	box-sizing: border-box;
 	position: relative;
 	background: $ue-tooltip-color-background;
-	border: #{$ue-tooltip-width-border}px solid $ue-tooltip-color-border;
+	border: $ue-tooltip-width-border solid $ue-tooltip-color-border;
 	box-shadow: $ue-tooltip-box-shadow;
 	border-radius: 6px;
 	font-family: Roboto;
@@ -81,14 +81,14 @@ button > * {
 		&:after {
 			border-color:  rgba(255, 255, 255, 0);
 			border-bottom-color: $ue-tooltip-color-background;
-			border-width: #{$ue-tooltip-width-after}px;
-			margin-left: -#{$ue-tooltip-width-after}px;
+			border-width: $ue-tooltip-width-after;
+			margin-left: -$ue-tooltip-width-after;
 		}
 		&:before {
 			border-color:  rgba(255, 255, 255, 0);
 			border-bottom-color: $ue-tooltip-color-border;
-			border-width: #{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
-			margin-left: -#{$ue-tooltip-width-before + $ue-tooltip-width-border -2}px;
+			border-width:  $ue-tooltip-width-before + $ue-tooltip-width-border - 2  ;
+			margin-left: - ($ue-tooltip-width-before + $ue-tooltip-width-border - 2 ) ;
 		}
 		margin-top: #{$ue-tooltip-width-before}px;
 	}
